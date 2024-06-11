@@ -1,0 +1,11 @@
+section.section{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section.section > article.section-article{
+    width: 50%;
+}

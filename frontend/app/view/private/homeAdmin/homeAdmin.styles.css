@@ -1,0 +1,47 @@
+
+/* Styles for content articles or cards*/
+section.container-products{
+    position: relative;
+}
+
+section.container-products > div.products{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+section.container-products > div.products > article.products-article{
+    flex-basis: calc((100% / 4) - 40px);
+    margin-bottom: 20px;
+    
+}
+
+/* Styles for articles or cards products */
+
+article.products-article{
+
+}
+
+article.products-article > div.article-header > img{
+    margin-bottom: 10px;
+    border-radius: 5px;
+    width: 100%;
+}
+
+article.products-article > div.article-body > span.body-price:nth-child(2){
+   text-decoration:line-through;
+   margin-right: 10px;
+}
+
+/* Style footer button*/
+article.products-article > div.article-footer > button.footer-button{
+    border: none;
+}
+
+section.container-products > button.products-create{
+    position: absolute;
+    left: 0;
+    top: 50%;
+    z-index: 2;
+}

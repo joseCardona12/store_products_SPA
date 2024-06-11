@@ -1,0 +1,61 @@
+{
+  "users": [
+    {
+      "id": "75c7",
+      "name_user": "jose",
+      "email_user": "jose@gmail.com",
+      "password_user": "U2FsdGVkX1+CvpRBfECIxXnV3ZpQM5uFelZGKimLQhA=",
+      "id_role": "2"
+    },
+    {
+      "id": "14b4",
+      "name_user": "jose",
+      "email_user": "jose01@gmail.com",
+      "password_user": "U2FsdGVkX19mOR9tNWvzfU5YL9UqVmAank3vT6o4AOo=",
+      "id_role": "2"
+    },
+    {
+      "id": "1",
+      "name_user": "admin",
+      "email_user": "admin@gmail.com",
+      "password_user": "U2FsdGVkX19mOR9tNWvzfU5YL9UqVmAank3vT6o4AOo=",
+      "id_role": "1"
+    }
+  ],
+  "role": [
+    {
+      "id": "1",
+      "name_role": "admin"
+    },
+    {
+      "id": "2",
+      "name": "user"
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "name_product": "computer",
+      "url_product": "https://technologystore2006.com/wp-content/uploads/elementor/thumbs/579217-1200-auto-qeeba9aep091sknspuyk3vkzqfb4kn8xw87pfp2xqc.webp",
+      "description_product": "All in One ASUS",
+      "price_before_product": "1799000",
+      "price_product": "1469000"
+    },
+    {
+      "id": "7e92",
+      "name_product": "cellphone",
+      "url_product": "https://technologystore2006.com/wp-content/uploads/2024/02/mas-productos-web-74-1-1.webp",
+      "description_product": "Samsung A25",
+      "price_before_product": "1200000",
+      "price_product": "1000000"
+    }
+  ],
+  "shopping": [
+    {
+      "id": "1",
+      "date_shopping": "10/06/2024",
+      "id_user": "1",
+      "id_product": "1"
+    }
+  ]
+}
