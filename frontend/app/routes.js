@@ -1,7 +1,7 @@
-import { CartProductsView } from "./view/private/homeAdmin/cartProducts/cartProducts.view";
 import { CreateProductView } from "./view/private/homeAdmin/createProduct/createProduct.view";
 import { EditProductView } from "./view/private/homeAdmin/editProduct/editProduc.view";
 import { HomeAdminView } from "./view/private/homeAdmin/homeAdmin.view";
+import { CartProductsView } from "./view/private/homeUser/cartProducts/cartProducts.view";
 import { HomeUserView } from "./view/private/homeUser/homeUser.view";
 import { LoginView } from "./view/public/login/login.view";
 import { NotFoundView } from "./view/public/notFound/notFound.view";
