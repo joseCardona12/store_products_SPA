@@ -20,6 +20,13 @@
       "email_user": "admin@gmail.com",
       "password_user": "U2FsdGVkX19mOR9tNWvzfU5YL9UqVmAank3vT6o4AOo=",
       "id_role": "1"
+    },
+    {
+      "id": "211a",
+      "name_user": "cardona",
+      "email_user": "cardona@gmail.com",
+      "password_user": "U2FsdGVkX18pTfaXkOgXdXWu7NymO6u9sfJFeZ6Z7Xk=",
+      "id_role": "2"
     }
   ],
   "role": [
@@ -48,14 +55,30 @@
       "description_product": "Samsung A25",
       "price_before_product": "1200000",
       "price_product": "1000000"
+    },
+    {
+      "id": "fe68",
+      "name_product": "Tablet",
+      "url_product": "https://technologystore2006.com/wp-content/uploads/elementor/thumbs/7YN117-qocvxxels5hs3f15yjanc07wswmzvxd5hfsslmgfgk.webp",
+      "description_product": "Tablet Samsung",
+      "price_before_product": "800000",
+      "price_product": "650000"
     }
   ],
   "shopping": [
     {
-      "id": "1",
-      "date_shopping": "10/06/2024",
-      "id_user": "1",
-      "id_product": "1"
+      "id": "02c2",
+      "date_shopping": "2024-06-12T14:39:03.768Z",
+      "quantity_product": 1,
+      "id_user": "75c7",
+      "id_product": "fe68"
+    },
+    {
+      "id": "2863",
+      "date_shopping": "2024-06-12T15:20:14.937Z",
+      "quantity_product": 1,
+      "id_user": "211a",
+      "id_product": "fe68"
     }
   ]
 }

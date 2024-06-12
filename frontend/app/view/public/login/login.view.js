@@ -1,4 +1,5 @@
 import { NavigateTo } from '../../../Router';
+import { encryptData } from '../../../helpers/encrypt';
 import { MessageConsole } from '../../../helpers/messageConsole';
 import { verifyForm } from '../../../helpers/verifyForm';
 import { verifyExistsUser } from './login.model';
@@ -35,11 +36,12 @@ export const LoginView = () =>{
                 return;
             }
             MessageConsole("Loading...");
-            const [userVerifyExists,id_role] = await verifyExistsUser($emailUser.value, $passwordUser.value);
+            const [userVerifyExists,id_role,id_user] = await verifyExistsUser($emailUser.value, $passwordUser.value);
             if(userVerifyExists){
                 const token = Math.random().toString(36).substring(2);
                 localStorage.setItem("token", token); //Set item to localstorage
-                localStorage.setItem("id_role", id_role)
+                localStorage.setItem("id_role", id_role);
+                localStorage.setItem("idUser", encryptData(id_user)); //Send id user to localstorage with hash.
                 console.log("Wellcome");
                 if(id_role === "2"){
                     NavigateTo("/dashboard-user");

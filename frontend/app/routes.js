@@ -1,3 +1,4 @@
+import { CartProductsView } from "./view/private/homeAdmin/cartProducts/cartProducts.view";
 import { CreateProductView } from "./view/private/homeAdmin/createProduct/createProduct.view";
 import { EditProductView } from "./view/private/homeAdmin/editProduct/editProduc.view";
 import { HomeAdminView } from "./view/private/homeAdmin/homeAdmin.view";
@@ -16,6 +17,7 @@ export const routes = {
         {path: "/dashboard-admin", view: HomeAdminView},
         {path: "/dashboard-user", view: HomeUserView},
         {path: "/dashboard-admin/edit-product", view: EditProductView},
-        {path: "/dashboard-admin/create-product", view: CreateProductView}
+        {path: "/dashboard-admin/create-product", view: CreateProductView},
+        {path: "/dashboard-user/cart-products", view: CartProductsView}
     ]
 }

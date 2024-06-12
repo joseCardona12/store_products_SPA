@@ -7,9 +7,9 @@ export const verifyExistsUser = async(email,password) =>{
     const userFound = usersGet.find(user=> user.email_user === email && decryptData(user.password_user) === password);
     if(!userFound){
         MessageConsole("Error. User not found...");
-        return [false,2];
+        return [false,2,0];
     }
     MessageConsole("User found...");
     console.log("Loading...");
-    return [true,userFound.id_role];
+    return [true,userFound.id_role, userFound.id];
 }

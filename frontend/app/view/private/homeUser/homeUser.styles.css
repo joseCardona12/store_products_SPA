@@ -1,0 +1,12 @@
+section > div.products-cart{
+    position: absolute;
+    top: 50%;
+    right: 0;
+}
+
+section > div.products-cart > span.cart-span{
+}
+
+h4.header-title{
+    font-weight: 600;
+}
