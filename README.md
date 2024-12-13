@@ -12,4 +12,3 @@ Para utilzar este aplicativo, es necesario los sigueinte pasos
  - Abrir la segunda terminal
  - Correr el server con el comando  ``` npm run server```
 
-### NOTA: El backend no está disponible
